@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@600&display=swap');
+/* *{
+    border: 1px solid black;
+} */
+
+body {
+    margin: 0;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Bagian Header */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #7d5fff;
+    opacity: 0.9;
+}
+
+.header-logo {
+    float: left;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.header-menu {
+    float: left;
+    padding: 0 120px;
+}
+
+.header-menu li {
+    float: left;
+    padding: 0 30px;
+    transition: background-color 0.5s;    
+}
+
+.header-menu li:hover{
+    background-color: blueviolet;
+}
+
+.header-menu ul {
+    margin: 0;
+}
+
+.header-menu a{
+    line-height: 65px;
+    color: white;
+}
+
+.header-login{
+    float: right;
+    padding: 0 30px;
+    transition: background-color 0.5s;
+}
+
+.header-login:hover{
+    background-color: blueviolet;
+}
+
+.header-login a{
+    line-height: 65px;
+    color: white;
+}
+
+/* Bagian Utama */
+.main {
+    height: 300px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.left-content {
+    float: left;
+}
+
+.gbr {
+    width: 600px;
+}
+
+.right-content {
+    float: right;
+    width: 500px;
+}
+
+.right-content h1 {
+    font-size: 50px;
+    opacity: 0.7;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.right-content h2 {
+    font-size: 30px;
+    opacity: 0.7;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+.right-content p {
+    opacity: 0.7;
+    text-align: justify;
+}
+
+.btn-wrapper {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.btn-wrapper a {
+    font-size: 15px;
+}
+
+.btn-wrapper p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.btn:hover {
+    opacity : 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.content {
+    padding: 100px 0 70px 0;
+    margin: 60px 0 10px 0;
+    background-image: url(/assets/3.jpg);
+    background-size: cover;
+    height: 320px;
+    opacity: 0.7;
+}
+
+.right-content-2 {
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.right-content-2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    display: inline;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.right-content-2 h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.content2 {
+    height: 650px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    font-size: large;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.study {
+    float: left;
+    width: 25%;
+}
+
+.study-icon {
+    position: relative;
+}
+
+.study-icon p {
+    position: absolute;
+    top : 44%;
+    width: 100%;
+    color: white;
+    font-size: small;
+}
+
+.study p{
+    padding: 0 3px;
+}
