@@ -6,20 +6,21 @@
     <title>Project</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <!-- bagian Header -->
-    <header>
+    <header id="header">
         <div class="container">
             <div class="header-logo">
-                SoftProject
+                <a href="#main">SoftProject</a> 
             </div>
             <div class="header-menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Study</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li class="menu-active"><a href="#home" class="scroll-smooth">Home</a></li>
+                    <li><a href="#study" class="scroll-smooth">Study</a></li>
+                    <li><a href="#about" class="scroll-smooth">About</a></li>
+                    <li><a href="#contact" class="scroll-smooth">Contact Us</a></li>
                 </ul>
             </div>
             <div class="header-login">
@@ -29,7 +30,7 @@
     </header>
 
     <!-- Bagian Utama -->
-    <div class="main">
+    <div class="main" id="main">
         <div class="container">
             <div class="left-content">
                 <img class="gbr" src="assets/1.png">
@@ -51,7 +52,7 @@
     </div>
 
     <!-- Bagian Tambahan 1 -->
-    <div class="content">
+    <div class="content" id="home">
         <div class="container">
             <div class="right-content-2">
                 <h2>KAMI SIAP MELAYANI ANDA</h2>
@@ -62,7 +63,7 @@
     </div>
 
     <!-- Bagian Tambahan 2 -->
-    <div class="content2">
+    <div class="content2" id="study">
         <div class="container">
             <div class="heading">
                 Pilih mau belajar apa!
@@ -125,5 +126,77 @@
             </div>
         </div>
     </div>
+
+    <!-- Bagian Tambahan 3 -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="heading">
+                Tentang Kami
+            </div>
+            <div class="top-content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui iste dolore, magni dolorum nulla corporis sint atque? Quidem, vitae. Repellendus id quisquam nisi sit ipsam accusamus nemo provident architecto nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore id ratione omnis labore fuga officiis a quasi voluptatem ipsum, repellendus aut commodi dolore, ipsam doloremque consectetur iusto nemo laudantium veritatis.</p>
+            </div>
+            <div class="heading">
+                TEAM
+            </div>
+            <div class="bottom-content">
+                <div class="study">
+                    <div class="study-icon">
+                        <img src="assets/team-1.jpg" alt="">
+                    </div>
+                    <p>Adidtya Perdana</p>
+                </div>
+                <div class="study">
+                    <div class="study-icon">
+                        <img src="assets/team-2.jpg" alt="">
+                    </div>
+                    <p>Ahmad Zuhri</p>
+                </div>
+                <div class="study">
+                    <div class="study-icon">
+                        <img src="assets/team-3.jpg" alt="">
+                    </div>
+                    <p>Ageng PN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="heading">
+                Hubungi Kami
+            </div>
+            <div class="bag-input">
+                <p>Email (Wajib Diisi)</p>
+                <!-- Tambahkan tag <input> -->
+                <input>
+                
+                <p>Pesan (Wajib Diisi)</p>
+                <!-- Tambahkan tag <textarea> -->
+                <textarea></textarea>
+                
+                <p>*Bidang Wajib Diisi</p>
+                <!-- Tambahkan tag <input> -->
+                <input class="contact-submit" type="submit" value="Kirim">
+            </div>
+        </div>
+    </div>
+
+    <!-- bagian footer -->
+    <footer>
+        <div class="footer-logo">SoftProject</div>
+        <div class="footer-list">
+            <ul>
+                <li>Tentang</li>
+                <li>Karier</li>
+                <li>Hubungi Kami</li>
+            </ul>
+        </div>
+    </footer>
+
+
+   
 </body>
 </html>

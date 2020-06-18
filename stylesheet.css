@@ -3,10 +3,16 @@
     border: 1px solid black;
 } */
 
+html {
+    scroll-behavior: smooth;
+    transition: all 3s;
+}
 body {
     margin: 0;
     width: auto;
     font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -30,14 +36,20 @@ header {
     width: 100%;
     background-color: #7d5fff;
     opacity: 0.9;
+    position:fixed;
+    z-index: 99;
 }
 
 .header-logo {
     float: left;
+}
+
+.header-logo a{
     font-size: 20px;
     padding: 20px 40px;
     color: white;
     font-weight: bold;
+    display: block;
 }
 
 .header-menu {
@@ -62,6 +74,7 @@ header {
 .header-menu a{
     line-height: 65px;
     color: white;
+    display: block;
 }
 
 .header-login{
@@ -83,7 +96,8 @@ header {
 .main {
     height: 300px;
     width: 100%;
-    padding: 30px 0;
+    padding: 100px 0;
+    margin-top: 0px;
 }
 
 .left-content {
@@ -169,7 +183,7 @@ header {
 .content {
     padding: 100px 0 70px 0;
     margin: 60px 0 10px 0;
-    background-image: url("assets/3.jpg");
+    background-image: url(/assets/3.jpg);
     background-size: cover;
     height: 320px;
     opacity: 0.7;
@@ -227,4 +241,73 @@ header {
 
 .study p{
     padding: 0 3px;
+}
+
+.about {
+    height: 650px;
+    text-align: center;
+}
+
+.bottom-content {
+    padding-top: 50px;
+}
+.bottom-content .study {
+    float: left;
+    width: 33%;
+}
+.bottom-content .study-icon img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 70px;
+    background-color: #f7f7f7;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+input,
+textarea {
+    width: 500px;
+    margin: 3px 0 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+    margin-top: 5px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 20px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 10px;
+}
+
+#header.header-fixed {
+    
+    padding: 0;
+    height: 65px;
+    transition: all 0.5s;
 }
