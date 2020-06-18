@@ -169,7 +169,7 @@ header {
 .content {
     padding: 100px 0 70px 0;
     margin: 60px 0 10px 0;
-    background-image: url(/assets/3.jpg);
+    background-image: url("/assets/3.jpg");
     background-size: cover;
     height: 320px;
     opacity: 0.7;
