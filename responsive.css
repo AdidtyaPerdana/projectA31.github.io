@@ -1,0 +1,393 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .container, header {
+        max-width: 1000px;
+        padding: 0;
+    }
+
+    .header-logo a{
+        padding: 20px;
+    }
+
+    .header-menu {
+        padding: 0 60px;
+    }
+
+    .header-login{
+        padding: 0 20px;
+    }
+
+    .main {
+        max-width: 1000px;
+        float: left;
+        max-height: 500px;
+        z-index: 1;
+        padding: 100px 0 30px 0;
+    }
+    .gbr {
+        max-width: 500px;
+        width: auto;
+        padding: 0;
+    }
+
+    .left-content {
+        max-width: 500px;
+    }
+
+    .right-content {
+        max-width: 500px;
+        padding-right: 0;
+        padding-left: 0;
+        width: auto;
+    }
+
+    .right-content h1 {
+        font-size: 30px;
+        opacity: 0.7;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    .right-content h2 {
+        font-size: 20px;
+        opacity: 0.7;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        font-style: normal;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    .right-content p {
+        font-size: 15px;
+        padding: 2px;
+        opacity: 0.7;
+        text-align: justify;
+        height: auto;
+    }
+
+    .btn {
+        padding: 8px 0;
+        max-width: 500px;
+        width: 100%;
+        color: white;
+        display: inline-block;
+        opacity: 0.7;
+        transition: opacity 0.5s;
+    }
+
+    .content {
+        /* padding: 100px 0 70px 0; */
+        float: left;
+        background-image: url("assets/3.jpg");
+        background-size: cover;
+        max-width: 1000px;
+        width: 100%;
+        opacity: 0.7;
+        z-index: 2;
+    }
+    
+    .btn-wrapper {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .btn-wrapper a {
+        font-size: 15px;
+    }
+
+    .btn-wrapper p {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .right-content-2 h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        display: inline;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        padding-right: 10px;
+    }
+
+    .content .container {
+        float: left;
+    }
+
+    .content2 {
+        float: left;
+    }
+
+    .about {
+        float: left;
+    }
+    .bottom-content .study-icon img {
+        border-radius: 50%;
+        width: 200px;
+    }
+
+    .bottom-content {
+        width: 100%;
+        float: left;
+    }
+
+    .contact {
+        float: left;
+        width: 100%;
+    }
+
+    footer {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .footer-logo {
+        padding: 45px 30px;
+    }
+    .footer-list {
+        padding: 20px 30px 0 30px;
+    }
+    .footer-list ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container, header {
+        max-width: 670px;
+        padding: 0;
+    }
+
+    .main {
+        max-width: 670px;
+        float: left;
+        min-height: 600px;
+    }
+
+    .left-content {
+        float: none;
+    }
+
+    .gbr {
+        max-width: 670px;
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .right-content {
+        max-width: 670px;
+        width: 100%;
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .right-content h1 {
+        font-size: 30px;
+        opacity: 0.7;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    .right-content h2 {
+        font-size: 20px;
+        opacity: 0.7;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        font-style: normal;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    .right-content p {
+        font-size: 15px;
+        margin: 5px;
+        opacity: 0.7;
+        text-align: justify;
+        width: 100% - 5;
+        height: auto;
+    }
+
+    .btn {
+        padding: 8px 0;
+        max-width: 670px;
+        width: 100%;
+        color: white;
+        display: inline-block;
+        opacity: 0.7;
+        transition: opacity 0.5s;
+        height: 30px;
+    }
+
+    .content {
+        /* padding: 100px 0 70px 0; */
+        float: left;
+        margin-top: 130px;
+        background-image: url("assets/3.jpg");
+        background-size: cover;
+        /* max-width: 1000px; */
+        max-height: auto;
+        opacity: 0.7;
+    }
+
+    .btn-wrapper {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .btn-wrapper a {
+        font-size: 18px;
+    }
+
+    .btn-wrapper p {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .right-content-2 h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        display: inline;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        padding-right: 10px;
+    }
+
+    /* content 2 */
+    .content2 {
+        height: auto;
+        float: left;
+    }
+    .content2 .container {
+        float: left;
+    }
+    .study {
+        float: left;
+        width: 50%;
+    }
+
+    .study-icon {
+        position: relative;
+    }
+
+    .study-icon p {
+        position: absolute;
+        top: 44%;
+        width: 100%;
+        color: white;
+        font-size: small;
+    }
+
+    .study p {
+        padding: 0 3px;
+    }
+
+    /* end */
+
+    .about {
+        margin-top: 20px;
+        float: left;
+    }
+
+    .bottom-content .study-icon img {
+        border-radius: 50%;
+        width: 150px;
+    }
+    
+    
+
+    .btn {
+        width: 100%;
+    }
+
+    .facebook {
+        margin-bottom: 10px;
+    }
+
+    .top-wrapper {
+        text-align: left;
+    }
+
+    /* Tambahkan CSS untuk header-right */
+    .header-menu {
+        display: none;
+    }
+    .header-login a{
+        display: none;
+    }
+
+    /* Tambahkan CSS untuk menu-icon */
+    
+    .menu-icon {
+        visibility: visible;
+        margin: 25px 20px 25px 20px;
+        color: white;
+        font-size: 100px;
+        z-index: 100;
+        float: right;
+    }
+    
+    .contact {
+        float: left;
+        margin-top: 0;
+        max-width: 670px;
+        width: 100%;
+    }
+    input,
+    textarea {
+        width: 100% - 30px;
+        margin: 3px 0 10px 0;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    footer {
+        text-align: center;
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .footer-logo {
+        float: none;
+        font-size: 20px;
+        margin: 20px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .footer-list {
+        float: none;
+        /* width: 100%; */
+        text-align: center;
+        
+    }
+    .footer-list ul {
+        display: inline-block;
+        padding-left: 0;
+        margin: 0;
+    }
+    .footer-list ul li {
+        padding-bottom: 10px;
+        text-align: center;
+        float: left;
+        padding: 0 5px;
+        margin: 0 auto;
+    }
+}
