@@ -348,7 +348,7 @@
     }
     .bag-input input,
     .bag-input textarea {
-        max-width: 650px;
+        max-width: 630px;
         width: 100%;
         margin: 3px 0 10px 0;
         padding: 0;
