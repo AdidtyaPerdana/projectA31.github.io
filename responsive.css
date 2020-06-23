@@ -381,11 +381,11 @@
         font-weight: 600;
     }
 
-    .footer-list {
+    .footer-list, .footer-list ul, .footer-list li {
         visibility: visible;
         
     }
-    .footer-list ul {
+    /* .footer-list ul {
         display: inline-block;
         padding-left: 0;
         margin: 0;
@@ -396,5 +396,5 @@
         float: left;
         padding: 0 5px;
         margin: 0 auto;
-    }
+    } */
 }
