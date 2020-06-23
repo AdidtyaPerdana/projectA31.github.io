@@ -276,7 +276,7 @@
     }
 
     .study .study-icon img {
-        width: 80px;
+        width: 120px;
     }
 
     .study-icon {
@@ -348,10 +348,11 @@
     }
     .bag-input input,
     .bag-input textarea {
-        max-width: 670px;
-        width: 100% - 30px;
+        max-width: 650px;
+        width: 100%;
         margin: 3px 0 10px 0;
         /* padding: 10px; */
+        display: block;
         font-size: 14px;
         border: 1px solid #dee7ec;
     }
