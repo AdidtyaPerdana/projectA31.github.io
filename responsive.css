@@ -351,7 +351,7 @@
         max-width: 650px;
         width: 100%;
         margin: 3px 0 10px 0;
-        /* padding: 10px; */
+        padding: 0;
         display: block;
         font-size: 14px;
         border: 1px solid #dee7ec;
@@ -382,9 +382,7 @@
     }
 
     .footer-list {
-        float: none;
-        /* width: 100%; */
-        text-align: center;
+        visibility: visible;
         
     }
     .footer-list ul {
