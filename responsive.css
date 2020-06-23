@@ -275,6 +275,10 @@
         width: 50%;
     }
 
+    .study img {
+        width: 80px;
+    }
+
     .study-icon {
         position: relative;
     }
