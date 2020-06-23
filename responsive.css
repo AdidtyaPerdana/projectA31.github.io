@@ -159,11 +159,13 @@
 @media all and (max-width: 670px) {
     .container, header {
         max-width: 670px;
+        width: 100%;
         padding: 0;
     }
 
     .main {
         max-width: 670px;
+        width: 100%;
         float: left;
         min-height: 600px;
     }
