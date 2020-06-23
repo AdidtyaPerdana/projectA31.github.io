@@ -353,10 +353,10 @@
     }
     .bag-input input,
     .bag-input textarea {
-
         width: 100%;
         margin: 3px 0 10px 0;
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
         display: block;
         font-size: 14px;
         border: 1px solid #dee7ec;
